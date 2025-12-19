@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pythonmate-7-minute-integrity-scan"
+version = "1.0.0"
+description = "SAP GOS 7-Minute Integrity Scanner - MOFU Diagnostic Tool"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "PythonMate", email = "support@pythonmate.com"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "click>=8.1.7",
+    "fpdf2>=2.7.9",
+    "python-json-logger>=2.0.7",
+    "pyrfc>=3.3.1; sys_platform == 'linux' or sys_platform == 'darwin'",  # SAP SDK optional
+]
+
+[project.optional-dependencies]
+sap = [
+    "pyrfc>=3.3.1",  # Requires SAP NetWeaver RFC SDK
+]
+
+[project.scripts]
+gos-scan = "src.cli.main:cli"
+
+[project.urls]
+Homepage = "https://github.com/pythonmate/7-minute-integrity-scan"
+Repository = "https://github.com/pythonmate/7-minute-integrity-scan"
+Documentation = "https://docs.pythonmate.com"

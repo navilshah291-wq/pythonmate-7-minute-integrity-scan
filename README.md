@@ -2,6 +2,10 @@
 
 **Diagnostic Reference Implementation** - *Not a Product*
 
+Maintained by PythonMate
+Enterprise SAP Content Integrity Diagnostics
+https://pythonmate.com
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
@@ -43,6 +47,8 @@ This tool surfaces risks and technical debt but does not resolve them. Actual re
 - Modify SAP tables
 - Provide self-service fixes
 
+The diagnostic validates attachment integrity by cross-checking GOS relationship entries (SRGBTBREL) against physical document metadata (SOFFPHIO) to identify orphaned or unreachable content without accessing binary payloads.
+
 ---
 
 ## Quick Start
@@ -54,8 +60,8 @@ This tool surfaces risks and technical debt but does not resolve them. Actual re
 
 ### Installation
 ```bash
-git clone https://github.com/pythonmate/7-minute-integrity-scan.git
-cd 7-minute-integrity-scan
+git clone https://github.com/pythonmate/pythonmate-7-minute-integrity-scan.git
+cd pythonmate-7-minute-integrity-scan
 pip install -r requirements.txt
 ```
 
@@ -84,6 +90,13 @@ This tool implements strict read-only operations:
 See [SECURITY_MODEL.md](SECURITY_MODEL.md) for detailed security assurance.
 
 ---
+
+## When NOT to run this diagnostic
+
+- On productive systems without Basis approval
+- As a substitute for migration test cycles
+- For cleanup or deletion decisions
+- For ArchiveLink design
 
 ## Enterprise Considerations
 

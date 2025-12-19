@@ -1,4 +1,4 @@
-# PythonMate 7-Minute SAP GOS Integrity Scan
+# 7-Minute SAP GOS Integrity Scan
 
 **Diagnostic Reference Implementation** - *Not a Product*
 
@@ -60,8 +60,8 @@ The diagnostic validates attachment integrity by cross-checking GOS relationship
 
 ### Installation
 ```bash
-git clone https://github.com/pythonmate/pythonmate-7-minute-integrity-scan.git
-cd pythonmate-7-minute-integrity-scan
+git clone https://github.com/pythonmate/7-minute-integrity-scan.git
+cd 7-minute-integrity-scan
 pip install -r requirements.txt
 ```
 
@@ -108,6 +108,30 @@ This diagnostic tool reveals opportunities but does **not address** them. Remedi
 - Compliance and audit requirements
 
 ---
+
+## Getting Started
+
+### For SAP Basis Teams
+This diagnostic is designed for pre-production environments to identify content integrity risks before they impact production systems.
+
+### For S/4HANA Migration Architects
+Use this tool to quantify GOS attachment bloat and plan cleanup strategies during your migration timeline.
+
+### For Security & Audit Teams
+Validate that GOS relationships are consistent and identify orphaned content that may pose compliance risks.
+
+### Download & Installation
+
+Ready to evaluate SAP GOS integrity in your environment?
+
+```bash
+git clone https://github.com/pythonmate/7-minute-integrity-scan.git
+cd 7-minute-integrity-scan
+pip install -r requirements.txt
+```
+
+### Next Steps
+After running your diagnostic scan, engage with PythonMate for comprehensive remediation planning and execution.
 
 ## License
 

